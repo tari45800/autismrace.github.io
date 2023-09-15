@@ -22,6 +22,17 @@ const BannerContainer = styled.div`
     transition: 1s;
   }
 
+  @media screen and (max-width: 850px) {
+    .bannerContainer {
+      position: relative;
+      width: ${({ content }) => `${content.length * 100}%`};
+      top: 0;
+      left: ${({ banner, num }) => `-${banner * 100}%`};
+      display: flex;
+      transition: 1s;
+    }
+  }
+
   .bannerContentBox {
     flex: 1;
     display: flex;
@@ -32,6 +43,7 @@ const BannerContainer = styled.div`
     flex: 1;
     display: flex;
     flex-direction: column;
+    align-items: center;
     img {
       width: 100%;
       object-fit: cover;
@@ -83,22 +95,25 @@ const BannerContainer = styled.div`
 
       img {
         width: 100%;
-        height: 30vw;
+        height: 50vw;
       }
 
       .bannerWord {
         width: 100%;
-        height: 30vw;
+        height: fit-content;
       }
     }
 
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 850px) {
       .bannerWord {
-        font-size: 2rem;
+        font-size: 0.5rem;
+        line-height: 1rem;
+        padding: 2rem;
       }
 
       .wordTitle {
-        font-size: 1.5rem;
+        font-size: 1rem;
+        line-height: 1.3rem;
       }
     }
   }
@@ -126,10 +141,15 @@ const BannerContainer = styled.div`
     }
   }
 
-  @media screen and (max-width: 80rem) {
-  }
+  @media screen and (max-width: 400px) {
+    .bannerNav {
+      font-size: 0.5rem;
+      padding: 2rem 0;
+    }
 
-  @media screen and (max-width: 36rem) {
+    .banner2ContentBox {
+      padding: 2rem;
+    }
   }
 `;
 
