@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/autismrace.github.io/static/js/main.6ebb2181.js",
+    "main.js": "/autismrace.github.io/static/js/main.75c2c842.js",
     "static/media/\b1.jpg": "/autismrace.github.io/static/media/\b1.513bde7e3bc40fb5982f.jpg",
     "static/media/9.jpg": "/autismrace.github.io/static/media/9.21376156d626bba127af.jpg",
     "static/media/1.jpg": "/autismrace.github.io/static/media/1.8d35cff1649b0e4d8a99.jpg",
@@ -12,10 +12,12 @@
     "static/media/6.jpg": "/autismrace.github.io/static/media/6.df16ed5c59462f401da2.jpg",
     "static/media/5.jpg": "/autismrace.github.io/static/media/5.6136af3dbbda6b31eec6.jpg",
     "static/media/8.jpg": "/autismrace.github.io/static/media/8.aea10b5d7239c27f2850.jpg",
+    "static/media/img1.png": "/autismrace.github.io/static/media/img1.22a6c257f7e8c6234ad6.png",
+    "static/media/14.png": "/autismrace.github.io/static/media/14.0084574b376be9d35ec4.png",
     "index.html": "/autismrace.github.io/index.html",
-    "main.6ebb2181.js.map": "/autismrace.github.io/static/js/main.6ebb2181.js.map"
+    "main.75c2c842.js.map": "/autismrace.github.io/static/js/main.75c2c842.js.map"
   },
   "entrypoints": [
-    "static/js/main.6ebb2181.js"
+    "static/js/main.75c2c842.js"
   ]
 }
