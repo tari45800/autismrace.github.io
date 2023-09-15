@@ -91,6 +91,16 @@ const BannerContainer = styled.div`
         height: 30vw;
       }
     }
+
+    @media screen and (max-width: 750px) {
+      .bannerWord {
+        font-size: 2rem;
+      }
+
+      .wordTitle {
+        font-size: 1.5rem;
+      }
+    }
   }
 
   .wordTitle {
